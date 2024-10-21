@@ -11,10 +11,10 @@ spec:
     metadata:
       labels: 
         app: nodejs-app
-    spec:                   
-      containers: 
-      - name: nodejs-app 
-        image: joeshiett/nodejs-app:latest
+    spec:
+      containers:
+      - name: nodejs-app
+        image: cara/nodejs-app:latest
         ports:
         - containerPort: 8081
 ---
